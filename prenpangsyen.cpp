@@ -9,3 +9,8 @@ class Dosen {
         }
 };
 
+class staf {
+    public:
+        int nidn;
+};
+
