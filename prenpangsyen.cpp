@@ -24,7 +24,12 @@ int main() {
     cout << "Alamat memori = " << &dsref << endl;
     dsref.tampilnama();
 
-    
+    Dosen *Pds = &ds;
+    Pds->nama = "reza ganteng";
+    cout << "Alamat memori = " << Pds << endl;
+    Pds->tampilnama();
+
+   
 
 
 }
