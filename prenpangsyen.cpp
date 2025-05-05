@@ -29,7 +29,14 @@ int main() {
     cout << "Alamat memori = " << Pds << endl;
     Pds->tampilnama();
 
-   
+    int a = 5;
+    int b = 3;
+    int *c = &a;
+    *c = 9;
+    cout << endl;
+    cout << a << endl;
+
+
 
 
 }
