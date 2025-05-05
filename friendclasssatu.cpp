@@ -29,3 +29,12 @@ void siswa::displayall(orang &a) {
     cout << id << endl << a.nama;
 }
 
+int main() {
+    orang joko;
+    joko.setnama("Joko susilo");
+    siswa joko_siswa;
+    joko_siswa.setid(1);
+    joko_siswa.displayall(joko);
+    return 0;
+
+}
