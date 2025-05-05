@@ -14,3 +14,10 @@ class staf {
         int nidn;
 };
 
+int main() {
+    Dosen ds;
+    ds.nama = "Terabyte anjayani";
+    ds.tampilnama();
+
+  
+}
